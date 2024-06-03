@@ -8,6 +8,5 @@ def fetch_content(url):
     else:
         print(f"Falha ao acessar {url}. Status code: {response.status_code}")
 
-if __name__ == '__main__':
-    url = 'http://localhost:8080'
-    fetch_content(url)
+url = 'http://localhost:8080/'
+fetch_content(url)
